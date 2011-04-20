@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D156CA8B-F8B0-C28E-50B2-203F32BF13E3}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <None Include="Assets\GzRNM\Documentation\LICENSE.txt" />
+     <Compile Include="Assets\GzRNM\Editor\GzCRNMMerger\GzCRNMMergeGUI.cs" />
+     <Compile Include="Assets\GzRNM\Editor\GzCRNMMerger\GzCRNMMergeUtil.cs" />
+     <Compile Include="Assets\GzRNM\Editor\GzSSBumpConverter\GzSSBumpConverterGUI.cs" />
+     <Compile Include="Assets\GzRNM\Editor\GzSSBumpConverter\GzSSBumpConverterUtil.cs" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMDSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMIndSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMSSBumpAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMSSBumpDSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMSSBumpIndSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzCRNMSSBumpMobileAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzRNMAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzRNMDSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzRNMIndSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzRNMSSBumpAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzRNMSSBumpDSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\AlphaTest\GzRNMSSBumpIndSpecAlphaTest.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMDSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMIndSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMSSBumpDSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMSSBumpIndSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMSSBumpMobileTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMSSBumpTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzCRNMTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzRNMDSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzRNMIndSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzRNMSSBumpDSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzRNMSSBumpIndSpecTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzRNMSSBumpTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\Transparent\GzRNMTransparent.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNM.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNMDSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNMIndSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNMSSBump.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNMSSBumpDSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNMSSBumpIndSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzCRNMSSBumpMobile.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNM.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNMDSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNMInc.cginc" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNMIndSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNMSSBump.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNMSSBumpDSpec.shader" />
+     <None Include="Assets\GzRNM\Shaders\GzRNMPro\GzRNMSSBumpIndSpec.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

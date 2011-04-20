@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{9A14F381-B448-636C-FF82-B78D7FF179D8}") = "GzRNMOS", "GzRNMOS.csproj", "{D156CA8B-F8B0-C28E-50B2-203F32BF13E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D156CA8B-F8B0-C28E-50B2-203F32BF13E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D156CA8B-F8B0-C28E-50B2-203F32BF13E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D156CA8B-F8B0-C28E-50B2-203F32BF13E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D156CA8B-F8B0-C28E-50B2-203F32BF13E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
