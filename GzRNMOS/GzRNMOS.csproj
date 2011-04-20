@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\GzRNM\Documentation\LICENSE.txt" />
+     <Compile Include="Assets\GzRNM\Editor\GzBsisMaker\GzBasisMakerGUI.cs" />
+     <Compile Include="Assets\GzRNM\Editor\GzBsisMaker\gzbasismakerutil.cs" />
      <Compile Include="Assets\GzRNM\Editor\GzCRNMMerger\GzCRNMMergeGUI.cs" />
      <Compile Include="Assets\GzRNM\Editor\GzCRNMMerger\GzCRNMMergeUtil.cs" />
      <Compile Include="Assets\GzRNM\Editor\GzSSBumpConverter\GzSSBumpConverterGUI.cs" />
